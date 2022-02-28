@@ -14106,4 +14106,12 @@ td {
   border: 1px solid black;
 }
 
+tr td:last-child {
+  background: #e5e5e5 !important;
+  border: none;
+}
+tr td:last-child:after {
+  opacity: 1 !important;
+}
+
 /*# sourceMappingURL=main.css.map */

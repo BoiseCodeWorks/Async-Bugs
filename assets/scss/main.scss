@@ -19,3 +19,11 @@ td {
   padding: .25em 1em;
   border: 1px solid black;
 }
+
+tr td:last-child {
+  background: $body-bg!important;
+  border: none;
+  &:after {
+    opacity: 1!important;
+  }
+}
